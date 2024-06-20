@@ -1,31 +1,32 @@
 package Framwork;
 
-import io.qameta.allure.model.Link;
-import org.junit.Assert;
-import io.qameta.allure.Description;
-import org.junit.Test;
+//import Framwork.Data_Driven_Testing.ExcelUtils;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import io.qameta.allure.Description;
+
+import java.io.IOException;
+
+
 //import sun.security.util.KnownOIDs;
 
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 
 public class GGPoker_Website {
 // Codes
+
 
     @Test
     @Description("This is for the L1")
@@ -370,9 +371,29 @@ public class GGPoker_Website {
         driver.quit();
     }
 
-    @Test
+
+    // Searched box input values
+//    @DataProvider(name = "Search Data")
+//    public Object[][] Search_Data() {
+//        return new Object[][]{
+//                {"Help"},
+//                {">"},
+//                {" "},
+//                {"GGPoker"}
+//        };
+//    }
+
+    // Take the Input from Excel file
+    @DataProvider(name = "Data")
+    public Object[][] testDataExcelFile() throws IOException {
+        String excelFileLocation = "src/test/resources/Searched_input_data.xlsx";
+        return ExcelUtils.getExcelData(excelFileLocation, "Sheet1");
+    }
+
+
+    @Test(dataProvider = "Data")
     @Description("This is for Search box")
-    public void Search_Box() throws InterruptedException {
+    public void Search_Box(String input_Box) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -389,7 +410,7 @@ public class GGPoker_Website {
 
             // Click and enter texts on search bar
             Search_Action.moveToElement(input_box).build().perform();
-            Search_Action.moveToElement(input_box).click().sendKeys("Help").build().perform();
+            Search_Action.moveToElement(input_box).click().sendKeys(input_Box).build().perform();
             // input_box.sendKeys("");
 
             //click on search button
@@ -440,10 +461,14 @@ public class GGPoker_Website {
                     String elementText = element.getText();
                     for (String substring : arrays) {
                         if (elementText.contains(substring)) {
-                            System.out.println("Bug");
+                            System.out.println("Found Some HTML Tags [Bug]");
+                            Thread.sleep(2000);
+                            driver.quit();
+
                         }
                     }
-                    System.out.println(element.getText());
+                    System.out.println("Article : " + element.getText());
+
                 }
 
             } else {
@@ -468,9 +493,16 @@ public class GGPoker_Website {
 
     }
 
-    @Test
+    // This excel sheet for Subject,name,email and descriptions
+    @DataProvider(name = "Data Sheet 2")
+    public Object[][] testDataExcelFiles() throws IOException {
+        String excelFileLocation = "src/test/resources/Searched_input_data.xlsx";
+        return ExcelUtils.getExcelData(excelFileLocation, "Sheet2");
+    }
+
+    @Test(dataProvider = "Data Sheet 2")
     @Description("This is for input box for Contact us")
-    public void input_box_for_Contact_us() throws InterruptedException{
+    public void input_box_for_Contact_us(String Subjects, String names, String emails, String descriptions) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -478,56 +510,56 @@ public class GGPoker_Website {
         driver.manage().window().maximize();
         // Wait to page load
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"Level1Element\"]")));
+        try {
+            // Action Class
+            Actions Action_Class = new Actions(driver);
 
-        // Action Class
-        Actions Action_Class = new Actions(driver);
+            // This is contact us modal open
+            WebElement Contact_us_Box = driver.findElement(By.xpath("//button[@c-chatcustominterface_chatcustominterface]"));
+            Contact_us_Box.click();
 
-        // This is contact us modal open
-        WebElement Contact_us_Box = driver.findElement(By.xpath("//button[@c-chatcustominterface_chatcustominterface]"));
-        Contact_us_Box.click();
+            // WebElement ddown = driver.findElement(By.xpath("//*[text()=\"Select a case type\"]"));
+            //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("")));
+            WebElement ddown = driver.findElement(By.xpath("(//button[@role=\"combobox\"])[2]"));
+            ddown.click();
+            // wait for the element to load
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role=\"listbox\"]//lightning-base-combobox-item[8]")));
+            WebElement Last_Element_of_L1 = driver.findElement(By.xpath("//div[@role=\"listbox\"]//lightning-base-combobox-item[8]"));
 
-        // WebElement ddown = driver.findElement(By.xpath("//*[text()=\"Select a case type\"]"));
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("")));
-        WebElement ddown = driver.findElement(By.xpath("(//button[@role=\"combobox\"])[2]"));
-        ddown.click();
-// wait for the element to load
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role=\"listbox\"]//lightning-base-combobox-item[8]")));
-        WebElement Last_Element_of_L1 = driver.findElement(By.xpath("//div[@role=\"listbox\"]//lightning-base-combobox-item[8]"));
-
-        // Hover and click on to that last element
-        Action_Class.moveToElement(Last_Element_of_L1).build().perform();
-        Action_Class.moveToElement(Last_Element_of_L1).click().build().perform();
+            // Hover and click on to that last element
+            Action_Class.moveToElement(Last_Element_of_L1).build().perform();
+            Action_Class.moveToElement(Last_Element_of_L1).click().build().perform();
 
 
-        // This is for Subject
+            // This is for Subject
 
-        WebElement Subject = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[3]"));
-        // Hover and click on to that last element
-        Action_Class.moveToElement(Subject).build().perform();
-        Action_Class.moveToElement(Subject).click().sendKeys("This is a subject").build().perform();
+            WebElement Subject = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[3]"));
+            // Hover and click on to that last element
+            Action_Class.moveToElement(Subject).build().perform();
+            Action_Class.moveToElement(Subject).click().sendKeys(Subjects).build().perform();
 
-        // This is for Name
+            // This is for Name
 
-        WebElement Name = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[4]"));
-        // Hover and click on to that last element
-        Action_Class.moveToElement(Name).build().perform();
-        Action_Class.moveToElement(Name).click().sendKeys("Testing Name").build().perform();
+            WebElement Name = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[4]"));
+            // Hover and click on to that last element
+            Action_Class.moveToElement(Name).build().perform();
+            Action_Class.moveToElement(Name).click().sendKeys(names).build().perform();
 
-        // This is for email
+            // This is for email
 
-        WebElement email = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[5]"));
-        // Hover and click on to that last element
-        Action_Class.moveToElement(email).build().perform();
-        Action_Class.moveToElement(email).click().sendKeys("Testing@test.com").build().perform();
+            WebElement email = driver.findElement(By.xpath("(//div/input[@class=\"slds-input\"])[5]"));
+            // Hover and click on to that last element
+            Action_Class.moveToElement(email).build().perform();
+            Action_Class.moveToElement(email).click().sendKeys(emails).build().perform();
 
-        // This is for Description
+            // This is for Description
 
-        WebElement Description = driver.findElement(By.xpath("//textarea[@class=\"slds-textarea\"]"));
-        // Hover and click on to that last element
-        Action_Class.moveToElement(Description).build().perform();
-        Action_Class.moveToElement(Description).click().sendKeys("This is the Description").build().perform();
+            WebElement Description = driver.findElement(By.xpath("//textarea[@class=\"slds-textarea\"]"));
+            // Hover and click on to that last element
+            Action_Class.moveToElement(Description).build().perform();
+            Action_Class.moveToElement(Description).click().sendKeys(descriptions).build().perform();
 
-        // This is for File Upload
+            // This is for File Upload
 //        WebElement File_upload = driver.findElement(By.xpath("//div/label[@class=\"slds-file-selector__body\"]"));
 //        System.out.println(File_upload.getText());
 //        // Hover and click on to that last element
@@ -536,19 +568,29 @@ public class GGPoker_Website {
 //        String Project_Path = System.getProperty("user.dir");
 //        Action_Class.sendKeys(Project_Path + "\\resources\\Image.jpg").build().perform();
 
-        //Click on submit button
-        WebElement Submit_btn = driver.findElement(By.xpath(" //div[@class=\"footer\"]/div"));
-        // Hover and click on to that last element
-        Action_Class.moveToElement(Submit_btn).build().perform();
-        Action_Class.moveToElement(Submit_btn).click().build().perform();
+            //Click on submit button
+            WebElement Submit_btn = driver.findElement(By.xpath(" //div[@class=\"footer\"]/div"));
+            // Hover and click on to that last element
+            Action_Class.moveToElement(Submit_btn).build().perform();
+            Action_Class.moveToElement(Submit_btn).click().build().perform();
 
 
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//lightning-icon[@title=\"approval\"]")));
-        if(driver.findElement(By.xpath("//lightning-icon[@title=\"approval\"]")).isDisplayed()){
-            System.out.println("Case has been Created Successfully");
-        }
-        else{
-            System.out.println("inside else part");
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//lightning-icon[@title=\"approval\"]")));
+            if (driver.findElement(By.xpath("//lightning-icon[@title=\"approval\"]")).isDisplayed()) {
+                System.out.println("Case has been Created Successfully");
+            } else {
+                System.out.println("inside else part");
+            }
+        } catch (Exception e) {
+            System.out.println("\nException caught");
+            StackTraceElement stackTraceElement = Arrays.stream(e.getStackTrace()).filter(ste -> ste.getClassName().equals(this.getClass().getName())).collect(Collectors.toList()).get(0);
+
+            System.out.println("Method Name : " + stackTraceElement.getMethodName());
+            System.out.println("Line Number : " + stackTraceElement.getLineNumber());
+            System.out.println("Class Name : " + stackTraceElement.getClassName());
+            System.out.println("File Name : " + stackTraceElement.getFileName());
+
+            System.out.println("Error Message : " + e.getMessage());
         }
 
         //div[@class="footer"]/div
@@ -558,7 +600,6 @@ public class GGPoker_Website {
         driver.quit();
 
     }
-
 
 
 }
