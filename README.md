@@ -52,9 +52,12 @@ allure serve
 
 _Open the generated link in your browser to view detailed test results, including console logs and screenshots._
 
-1. <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/21d0cbb7-d343-46ab-9676-d218793e6dc0">
-2. <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/613c9acb-3f9e-4fd2-aaef-789b0a9c70e5">
-3. <img width="1438" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/f9441fe2-24b0-4fd9-bc0a-80931310a25c">
+1.
+ <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/21d0cbb7-d343-46ab-9676-d218793e6dc0">
+2.
+ <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/613c9acb-3f9e-4fd2-aaef-789b0a9c70e5">
+3.
+ <img width="1438" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/f9441fe2-24b0-4fd9-bc0a-80931310a25c">
 
 
 ### Contact
