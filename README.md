@@ -1,14 +1,14 @@
-Automated GGPOKER Testing Project
+#Automated GGPOKER Testing Project
 
 
-Automated [GGPOKER] project using Selenium with Java, Maven, TestNG, and Excel for data-driven testing, Allure for reporting, and screenshots for test evidence.
+##Automated [GGPOKER] project using Selenium with Java, Maven, TestNG, and Excel for data-driven testing, Allure for reporting, and screenshots for test evidence.
 
-Table of Contents
-Introduction
+###Table of Contents
+**Introduction
 Prerequisites
 Setup
 Usage
-Allure Reporting
+Allure Reporting**
 
 Contact
 
@@ -48,11 +48,15 @@ Allure generates comprehensive HTML reports automatically after each test run.
 To view the report:
 code run on your terminal :-
 allure serve
+
 Open the generated link in your browser to view detailed test results, including console logs and screenshots.
 
-1. <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/21d0cbb7-d343-46ab-9676-d218793e6dc0">
-2. <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/613c9acb-3f9e-4fd2-aaef-789b0a9c70e5">
-3. <img width="1438" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/f9441fe2-24b0-4fd9-bc0a-80931310a25c">
+1.
+ <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/21d0cbb7-d343-46ab-9676-d218793e6dc0">
+2.
+ <img width="1440" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/613c9acb-3f9e-4fd2-aaef-789b0a9c70e5">
+3. 
+<img width="1438" alt="image" src="https://github.com/Mayankjha1/GGPoker-Automation/assets/81032702/f9441fe2-24b0-4fd9-bc0a-80931310a25c">
 
 
 Contact
