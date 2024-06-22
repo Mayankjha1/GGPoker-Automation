@@ -1,4 +1,4 @@
-Automated [GGPOKER] Testing Project
+Automated GGPOKER Testing Project
 
 
 Automated [GGPOKER] project using Selenium with Java, Maven, TestNG, and Excel for data-driven testing, Allure for reporting, and screenshots for test evidence.
