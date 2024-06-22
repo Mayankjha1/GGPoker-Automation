@@ -19,10 +19,10 @@
 _Ensure you have the following installed on your machine:_
 
 > [!IMPORTANT]
->**Java Development Kit (JDK) 8 or higher**
->**Maven**
->**Git**
->**Setup**
+> **Java Development Kit (JDK) 8 or higher**
+> **Maven**
+> **Git**
+> **Setup**
 
 
 ### Clone the repository:
