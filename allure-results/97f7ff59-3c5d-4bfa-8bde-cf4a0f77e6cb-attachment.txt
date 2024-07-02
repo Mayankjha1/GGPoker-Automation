@@ -1,0 +1,79 @@
+Language Size : 2
+--------------------https://nsus.my.site.com/ggpokeres/s/?language=es--------------------
+--------------------English US--------------------
+Language Name : English US
+Level 2 : Password Queries
+No Articles : Password Queries
+Level 2 : Update Details
+No Articles : Update Details
+Level 2 : Account Creation & Deletion
+Articles Size 5
+Level 2 : Marketing Opt in/out
+Articles Size 3
+Level 2 : Country Availability
+Articles Size 3
+Level 2 : Data Request
+Articles Size 7
+Level 2 : Account Verification
+Articles Size 7
+Level 2 : Other Accounts Queries
+Articles Size 2
+Level 2 : Security Features
+Articles Size 19
+Level 2 : Unwanted Access
+Articles Size 19
+Level 2 : Other Account Security Queries
+Articles Size 50
+Level 2 : Limits
+No Articles : Limits
+Limits - Increase
+Limits - Decrease
+Level 3 : Limits - Increase
+No Articles : 0
+Level 3 : Limits - Decrease
+Articles Size 17
+Level 2 : Self Exclusion
+No Articles : Self Exclusion
+Time Out
+Permanent Exclusion & Account Closure
+Level 3 : Time Out
+Articles Size 1
+Level 3 : Permanent Exclusion & Account Closure
+Articles Size 1
+Level 2 : Other Responsible Gaming Queries
+Articles Size 1
+Level 2 : Game Information
+No Articles : Game Information
+All-in or Fold
+Spin & Gold
+Battle Royale
+Flip & Go
+Rush & Cash
+Hold'em
+Omaha
+Short Deck
+Casino
+Other Game Types
+Level 3 : All-in or Fold
+No Articles : 0
+Level 3 : Spin & Gold
+Articles Size 6
+Level 3 : Battle Royale
+Articles Size 27
+Level 3 : Flip & Go
+
+Exception caught
+Method Name : Article_checker
+Line Number : 141
+Class Name : Framwork.Article_Checker
+File Name : Article_Checker.java
+Error Message : stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89424fc82cadbc7113cbe1f31ef31225, isElementDisplayed {id=f.3D8197BD0327010B378E93B896439FCB.d.416317227F328733A155C71BE4AD125A.e.308}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/dy/k0k61rv14td...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62862/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (89424fc82cadbc7113cbe1f31ef31225)] -> xpath: //div[@class="datatableforcategory"]/div/div]
+Session ID: 89424fc82cadbc7113cbe1f31ef31225

@@ -1,0 +1,39 @@
+Language Size : 2
+--------------------https://nsus.my.site.com/ggpokerbr/s/?language=pt_BR--------------------
+--------------------English US--------------------
+Language Name : English US
+Level 2 : Password Queries
+No Articles : Password Queries
+Level 2 : Update Details
+No Articles : Update Details
+Level 2 : Account Creation & Deletion
+No Articles : Account Creation & Deletion
+Level 2 : Marketing Opt in/out
+Articles Size 5
+Level 2 : Country Availability
+Articles Size 5
+Level 2 : Data Request
+Articles Size 5
+Level 2 : Account Verification
+Articles Size 1
+Level 2 : Other Accounts Queries
+No Articles : Other Accounts Queries
+Level 2 : Security Features
+Articles Size 5
+Level 2 : Unwanted Access
+
+Exception caught
+Method Name : Article_checker
+Line Number : 99
+Class Name : Framwork.Article_Checker
+File Name : Article_Checker.java
+Error Message : stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6ad87e8508131811d7f667e1cd19a2f, isElementDisplayed {id=f.85C4DE4EF7B31F28B1A2B1105EE8CC9E.d.B815D3974F4859DB786259B748A9AE1A.e.190}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/dy/k0k61rv14td...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62723/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b6ad87e8508131811d7f667e1cd19a2f)] -> xpath: //div[@class="datatableforcategory"]/div/div]
+Session ID: b6ad87e8508131811d7f667e1cd19a2f
