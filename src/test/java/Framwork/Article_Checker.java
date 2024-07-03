@@ -65,7 +65,7 @@ public class Article_Checker {
 
                 language_Button.get(Language_loop).click();
                 // Wait for 7 Second
-                Thread.sleep(10000);
+                Thread.sleep(12000);
                 captureScreenshot(driver, "Main Page Screenshot ");
 
                 // Action Class
@@ -90,7 +90,7 @@ public class Article_Checker {
                     ActionClass.moveToElement(elements).click().build().perform();
 
                     // Wait for [1.9 Sec] the Articles to show up
-                    Thread.sleep(1900);
+                    Thread.sleep(3000);
                     //For Articles Found
                     List<WebElement> Articles_Level2 = driver.findElements(By.xpath("//div[@class=\"datatableforcategory\"]/div/div"));
                     if (!Articles_Level2.isEmpty() && Articles_Level2.get(0).isDisplayed()) {
@@ -130,7 +130,7 @@ public class Article_Checker {
                             ActionClass.moveToElement(elements_Level3).click().build().perform();
 
                             // Wait for [1.9 Sec] the Articles to show up
-                            Thread.sleep(1900);
+                            Thread.sleep(3000);
                             // For Articles Found
                             List<WebElement> Articles_Level3 = driver.findElements(By.xpath("//div[@class=\"datatableforcategory\"]/div/div"));
                             if (!Articles_Level3.isEmpty() && Articles_Level3.get(0).isDisplayed()) {
