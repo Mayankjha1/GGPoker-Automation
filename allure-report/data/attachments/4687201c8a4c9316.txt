@@ -1,0 +1,425 @@
+Language Size : 3
+--------------------https://nsus.my.site.com/ggpokeruk/s/?language=en_US--------------------
+--------------------English US--------------------
+Language Name : English US
+Level 2 : Account Verification
+Articles Size 6
+Level 2 : Password Queries
+Articles Size 4
+Level 2 : Update Details
+Articles Size 3
+Level 2 : Account Creation & Deletion
+Articles Size 5
+Level 2 : Marketing Opt in/out
+Articles Size 1
+Level 2 : Country Availability
+Articles Size 2
+Level 2 : Data Request
+Articles Size 4
+Level 2 : Other Account Queries
+Articles Size 47
+Level 2 : Security Features
+Articles Size 13
+Level 2 : Unwanted Access
+Articles Size 2
+Level 2 : Other Account Security Queries
+Articles Size 11
+Level 2 : Limits
+No Articles : Limits
+Limits - Increase
+Limits - Decrease
+Level 3 : Limits - Increase
+Articles Size 3
+Level 3 : Limits - Decrease
+Articles Size 1
+Level 2 : Self Exclusion
+No Articles : Self Exclusion
+Time Out
+Permanent Exclusion&Account Closure
+Level 3 : Time Out
+No Articles : 0
+Level 3 : Permanent Exclusion&Account Closure
+No Articles : 0
+Level 2 : Other Responsible Gaming Queries
+Articles Size 7
+Level 2 : Game Information
+No Articles : Game Information
+All-in Fold
+Spin & Gold
+Battle Royale
+Flip & Go
+Rush & Cash
+Hold'em
+Omaha
+Short Deck
+Casino
+Other Game Types
+Level 3 : All-in Fold
+No Articles : 0
+Level 3 : Spin & Gold
+Articles Size 49
+Level 3 : Battle Royale
+No Articles : 0
+Level 3 : Flip & Go
+Articles Size 40
+Level 3 : Rush & Cash
+Articles Size 9
+Level 3 : Hold'em
+Articles Size 5
+Level 3 : Omaha
+Articles Size 12
+Level 3 : Short Deck
+Articles Size 10
+Level 3 : Casino
+Articles Size 20
+Level 3 : Other Game Types
+Articles Size 2
+Level 2 : Tournaments
+No Articles : Tournaments
+Daily Guarantees
+Bounty Hunters
+Mystery Bounty
+GGMasters
+MILLION$
+Satellites
+Tournament Series & Special Events
+Other Tournaments
+Level 3 : Daily Guarantees
+Articles Size 1
+Level 3 : Bounty Hunters
+Articles Size 2
+Level 3 : Mystery Bounty
+Articles Size 12
+Level 3 : GGMasters
+Articles Size 8
+Level 3 : MILLION$
+Articles Size 58
+Level 3 : Satellites
+Articles Size 17
+Level 3 : Tournament Series & Special Events
+Articles Size 1
+Level 3 : Other Tournaments
+Articles Size 29
+Level 2 : Client & Game Features
+No Articles : Client & Game Features
+Staking & Backing
+Smart HUD
+Prop Bets
+Early Bird Benefits
+EV Cashout
+Other Features
+Level 3 : Staking & Backing
+Articles Size 25
+Level 3 : Smart HUD
+Articles Size 26
+Level 3 : Prop Bets
+Articles Size 20
+Level 3 : Early Bird Benefits
+Articles Size 39
+Level 3 : EV Cashout
+Articles Size 14
+Level 3 : Other Features
+Articles Size 207
+Level 2 : PokerCraft
+Articles Size 158
+Level 2 : Game Integrity
+Articles Size 8
+Level 2 : Other Game Related Queries
+Articles Size 7
+Level 2 : Deposit Queries
+No Articles : Deposit Queries
+How to Deposit
+Other Deposit Queries
+Level 3 : How to Deposit
+Articles Size 15
+Level 3 : Other Deposit Queries
+Articles Size 42
+Level 2 : Withdrawal Queries
+No Articles : Withdrawal Queries
+How to Withdraw
+Other Withdrawal Queries
+Level 3 : How to Withdraw
+Articles Size 5
+Level 3 : Other Withdrawal Queries
+Articles Size 18
+Level 2 : Transaction History
+Articles Size 3
+Level 2 : Transfer Queries
+No Articles : Transfer Queries
+Level 2 : In-Game Currencies
+No Articles : In-Game Currencies
+T$
+C$
+Tickets
+Level 3 : T$
+No Articles : 0
+Level 3 : C$
+No Articles : 0
+Level 3 : Tickets
+Articles Size 1
+Level 2 : Other Cashier Queries
+No Articles : Other Cashier Queries
+Level 2 : Connection Issues
+Articles Size 10
+Level 2 : Download & Installation
+Articles Size 4
+Level 2 : Desktop Client
+No Articles : Desktop Client
+Windows Client
+MacOS Client
+Level 3 : Windows Client
+Articles Size 12
+Level 3 : MacOS Client
+Articles Size 8
+Level 2 : Mobile App
+No Articles : Mobile App
+Android App
+iOS App
+Level 3 : Android App
+Articles Size 8
+Level 3 : iOS App
+Articles Size 7
+Level 2 : Game Cancellation & Refund Policy
+Articles Size 2
+Level 2 : Other Technical Queries
+Articles Size 23
+Level 2 : Fish Buffet
+Articles Size 117
+Level 2 : Honeymoon for Newcomers
+Articles Size 33
+Level 2 : Welcome Bonus
+Articles Size 1
+Level 2 : Jackpots
+Articles Size 61
+Level 2 : Daily Freebie
+Articles Size 27
+Level 2 : Leaderboards
+Articles Size 11
+Level 2 : ThanksGG
+Articles Size 15
+Level 2 : Casino Bonus
+No Articles : Casino Bonus
+Level 2 : Other Promotions & Rewards
+Articles Size 3
+Language Size : 3
+--------------------https://nsus.my.site.com/ggpokeruk/s/contentpage?language=en_US&level=Mobile+App&type=subcategories&data=Other+Promotions+%26+Rewards--------------------
+--------------------Polish--------------------
+Language Name : Polish
+Level 2 : Weryfikacja konta
+Articles Size 6
+Level 2 : Pytania o hasło
+Articles Size 4
+Level 2 : Aktualizacja Danych
+Articles Size 3
+Level 2 : Tworzenie konta
+Articles Size 4
+Level 2 : Zgoda na marketing
+Articles Size 1
+Level 2 : Dostępność w kraju
+Articles Size 2
+Level 2 : Żądanie danych
+Articles Size 4
+Level 2 : Other Account Queries
+Articles Size 47
+Level 2 : Funkcje bezpieczeństwa
+Articles Size 13
+Level 2 : Niepożądany Dostęp
+Articles Size 2
+Level 2 : Inne pytania o bezpieczeństwo konta
+Articles Size 11
+Level 2 : Limity
+No Articles : Limity
+Limity - zwiększenie
+Limity - zmniejszenie
+Level 3 : Limity - zwiększenie
+Articles Size 3
+Level 3 : Limity - zmniejszenie
+Articles Size 1
+Level 2 : Samowykluczenie
+No Articles : Samowykluczenie
+Limit Czasu
+Stałe wykluczenie i zamknięcie konta
+Level 3 : Limit Czasu
+No Articles : 0
+Level 3 : Stałe wykluczenie i zamknięcie konta
+No Articles : 0
+Level 2 : Inne pytania o odpowiedzialną grę
+Articles Size 7
+Level 2 : Informacje o grze
+No Articles : Informacje o grze
+All-in Fold
+Spin & Gold
+Battle Royale
+Flip & Go
+Rush & Cash
+Hold'em
+Omaha
+Short Deck
+Kasyno
+Inne typy gier
+Level 3 : All-in Fold
+No Articles : 0
+Level 3 : Spin & Gold
+Articles Size 48
+Level 3 : Battle Royale
+No Articles : 0
+Level 3 : Flip & Go
+Articles Size 38
+Level 3 : Rush & Cash
+Articles Size 8
+Level 3 : Hold'em
+Articles Size 4
+Level 3 : Omaha
+Articles Size 10
+Level 3 : Short Deck
+Articles Size 9
+Level 3 : Kasyno
+Articles Size 20
+Level 3 : Inne typy gier
+Articles Size 2
+Level 2 : Turnieje
+No Articles : Turnieje
+Codzienne gwarancje
+Bounty Hunters
+Tajemnicze Nagrody
+GGMasters
+MILIONY$
+Satelity
+Serie Turniejowe Wydarzenia Specjalne
+Inne turnieje
+Level 3 : Codzienne gwarancje
+Articles Size 1
+Level 3 : Bounty Hunters
+Articles Size 1
+Level 3 : Tajemnicze Nagrody
+Articles Size 12
+Level 3 : GGMasters
+Articles Size 8
+Level 3 : MILIONY$
+Articles Size 57
+Level 3 : Satelity
+Articles Size 17
+Level 3 : Serie Turniejowe Wydarzenia Specjalne
+No Articles : 0
+Level 3 : Inne turnieje
+Articles Size 29
+Level 2 : Funkcje klienta i gry
+No Articles : Funkcje klienta i gry
+Staking i wsparcie
+Smart HUD
+Prop Zakłady
+Korzyści dla wczesnych ptaszków
+Wypłata EV
+Inne funkcje
+Level 3 : Staking i wsparcie
+Articles Size 25
+Level 3 : Smart HUD
+Articles Size 26
+Level 3 : Prop Zakłady
+Articles Size 17
+Level 3 : Korzyści dla wczesnych ptaszków
+Articles Size 38
+Level 3 : Wypłata EV
+Articles Size 14
+Level 3 : Inne funkcje
+Articles Size 202
+Level 2 : PokerCraft
+Articles Size 157
+Level 2 : Integralność gry
+Articles Size 8
+Level 2 : Inne pytania o grę
+Articles Size 7
+Level 2 : Zapytania dot. wpłat
+No Articles : Zapytania dot. wpłat
+Jak wpłacić
+Inne pytania o wpłaty
+Level 3 : Jak wpłacić
+Articles Size 14
+Level 3 : Inne pytania o wpłaty
+Articles Size 42
+Level 2 : Zapytania o Wypłaty
+No Articles : Zapytania o Wypłaty
+Jak wypłacić
+Inne Zapytania o Wypłaty
+Level 3 : Jak wypłacić
+Articles Size 5
+Level 3 : Inne Zapytania o Wypłaty
+Articles Size 18
+Level 2 : Historia Transakcji
+Articles Size 3
+Level 2 : Zapytania o Transfery
+Articles Size 5
+Level 2 : Waluty w grze
+No Articles : Waluty w grze
+T$
+C$
+Bilety
+Level 3 : T$
+No Articles : 0
+Level 3 : C$
+No Articles : 0
+Level 3 : Bilety
+Articles Size 1
+Level 2 : Inne pytania o kasę
+No Articles : Inne pytania o kasę
+Level 2 : Problemy z połączeniem
+Articles Size 10
+Level 2 : Pobieranie i instalacja
+Articles Size 4
+Level 2 : Klient desktopowy
+No Articles : Klient desktopowy
+Klient Windows
+Klient MacOS
+Level 3 : Klient Windows
+Articles Size 12
+Level 3 : Klient MacOS
+Articles Size 8
+Level 2 : Aplikacja mobilna
+No Articles : Aplikacja mobilna
+Aplikacja na Androida
+Aplikacja iOS
+Level 3 : Aplikacja na Androida
+Articles Size 8
+Level 3 : Aplikacja iOS
+Articles Size 7
+Level 2 : Zasady anulowania gry i zwrotów
+Articles Size 2
+Level 2 : Inne pytania techniczne
+Articles Size 23
+Level 2 : Fish Buffet
+Articles Size 117
+Level 2 : Miesiąc miodowy dla nowicjuszy
+Articles Size 33
+Level 2 : Bonus Powitalny
+Articles Size 1
+Level 2 : Jackpoty
+Articles Size 60
+Level 2 : Codzienna premia
+Articles Size 27
+Level 2 : Tabele wyników
+Articles Size 11
+Level 2 : DziękujęGG
+Articles Size 15
+Level 2 : Bonus kasynowy
+No Articles : Bonus kasynowy
+Level 2 : Inne promocje i nagrody
+Articles Size 3
+Language Size : 3
+--------------------https://nsus.my.site.com/ggpokeruk/s/contentpage?language=pl&level=Aplikacja+mobilna&type=subcategories&data=Inne+promocje+i+nagrody--------------------
+--------------------Romanian--------------------
+Language Name : Romanian
+
+Exception caught
+Method Name : Article_checker
+Line Number : 74
+Class Name : Framwork.Article_Checker
+File Name : Article_Checker.java
+Error Message : no such element: Unable to locate element: {"method":"xpath","selector":"(//div/p[@class="Level1Class"])[1]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ea0e374e8f8b326ab6961b0be89df80, findElement {value=(//div/p[@class="Level1Class"])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/dy/k0k61rv14td...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54010/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ea0e374e8f8b326ab6961b0be89df80
