@@ -4,9 +4,11 @@ package Framwork;
 import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import io.qameta.allure.Description;
@@ -23,9 +25,18 @@ import static Framwork.Allure_Helper_Class.captureScreenshot;
 
 
 public class GGPoker_Website {
-    @Test
+
+    // Excel Reader
+    @DataProvider(name = "GGPoker URL's")
+    public Object[][] testDataExcelFile2() throws IOException {
+        String excelFileLocation = "src/test/resources/Searched_input_data.xlsx";
+        return ExcelUtils.getExcelData(excelFileLocation, "Article");
+    }
+
+    @Test(dataProvider = "GGPoker URL's")
     @Description("This is for the L1")
-    public void Test_Case_For_L1() throws InterruptedException {
+    public void Test_Case_For_L1(String URL) throws InterruptedException {
+
         // Capture System.out output
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream originalOut = System.out;
@@ -33,48 +44,48 @@ public class GGPoker_Website {
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://nsus.my.site.com/ggpokerbr");
+        driver.get(URL);
         driver.manage().window().maximize();
 
         // Wait till page load
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"Level1Element\"]")));
         try {
 
-            List<WebElement> lists = driver.findElements(By.xpath("//button[@type=\"button\"]"));
-            for (WebElement elements : lists) {
-                if (elements.getText().equals("Portuguese")) {
+            //   List<WebElement> lists = driver.findElements(By.xpath("//button[@type=\"button\"]"));
+            // for (WebElement elements : lists) {
+            //   if (elements.getText().equals("Portuguese")) {
 
-                    List<WebElement> List_Of_L1 = driver.findElements(By.xpath("//div/div/p[@class=\"Level1Class\"]"));
+            List<WebElement> List_Of_L1 = driver.findElements(By.xpath("//div/div/p[@class=\"Level1Class\"]"));
 
 
-                    for (int i = 0; i < List_Of_L1.size(); i++) {
-                        // Re-fetch the elements to avoid StaleElementReferenceException
-                        List_Of_L1 = driver.findElements(By.xpath("//div/div/p[@class='Level1Class']"));
-                        WebElement elements_Of_L1 = List_Of_L1.get(i);
-                        System.out.println(elements_Of_L1.getText());
-                        // Taking Screenshot
-                        captureScreenshot(driver, elements_Of_L1.getText());
-                        elements_Of_L1.click();
-                        //System.out.println("Clicked");
+            for (int i = 0; i < List_Of_L1.size(); i++) {
+                // Re-fetch the elements to avoid StaleElementReferenceException
+                List_Of_L1 = driver.findElements(By.xpath("//div/div/p[@class='Level1Class']"));
+                WebElement elements_Of_L1 = List_Of_L1.get(i);
+                System.out.println(elements_Of_L1.getText());
+                // Taking Screenshot
+                captureScreenshot(driver, elements_Of_L1.getText());
+                elements_Of_L1.click();
+                //System.out.println("Clicked");
 
-                        // Wait for the page to load after click
-                        //Thread.sleep(3000);
-                        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"level_1_title\"]")));
-                        Thread.sleep(3000);
-                        // Going Back to the Main Page !!!
-                        captureScreenshot(driver, "Page Screenshot");
-                        driver.navigate().back();
+                // Wait for the page to load after click
+                //Thread.sleep(3000);
+                wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"level_1_title\"]")));
+                Thread.sleep(3000);
+                // Going Back to the Main Page !!!
+                captureScreenshot(driver, "Page Screenshot");
+                driver.navigate().back();
 
-                        // Wait for the original elements to be visible again after navigating back
-                        //Thread.sleep(3000);
-                        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"Level1Element\"]")));
-                        // System.out.println("Navigated back");
-                    }
-
-                } else {
-                    System.out.println("Some Other Language");
-                }
+                // Wait for the original elements to be visible again after navigating back
+                //Thread.sleep(3000);
+                wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"Level1Element\"]")));
+                // System.out.println("Navigated back");
             }
+
+//                    } else {
+//                        System.out.println("Some Other Language");
+//                    }
+            //   }
             // This is for Logs in allure reports
             //attachConsoleLogs(driver, "ConsoleLogs");
             Allure_Helper_Class.attachConsoleLogs(driver, "ConsoleLogs");
@@ -100,9 +111,9 @@ public class GGPoker_Website {
     }
 
     ////div/div/p/span[@class="secondElement"]
-    @Test
+    @Test(dataProvider = "GGPoker URL's")
     @Description("This is for L2")
-    public void Test_Case_For_L2() throws InterruptedException {
+    public void Test_Case_For_L2(String URL) throws InterruptedException {
         // Capture System.out output
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream originalOut = System.out;
@@ -111,7 +122,7 @@ public class GGPoker_Website {
         // Hovering Part
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://nsus.my.site.com/ggpokerbr");
+        driver.get(URL);
         driver.manage().window().maximize();
 
         // Wait till page load
@@ -200,9 +211,9 @@ public class GGPoker_Website {
 
     }
 
-    @Test
+    @Test(dataProvider = "GGPoker URL's")
     @Description("This is for Contact us")
-    public void Test_Case_Contact_US() throws InterruptedException {
+    public void Test_Case_Contact_US(String URL) throws InterruptedException {
 
         // Capture System.out output
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -211,7 +222,7 @@ public class GGPoker_Website {
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://nsus.my.site.com/ggpokerbr");
+        driver.get(URL);
         driver.manage().window().maximize();
 
         // Wait till page load
@@ -259,9 +270,9 @@ public class GGPoker_Website {
 
     }
 
-    @Test
+    @Test(dataProvider = "GGPoker URL's")
     @Description("This is for Contact us List of L1 and L2 and L3")
-    public void List_of_options() throws InterruptedException {
+    public void List_of_options(String URL) throws InterruptedException {
 
         // Capture System.out output
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -270,7 +281,7 @@ public class GGPoker_Website {
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://nsus.my.site.com/ggpokerbr");
+        driver.get(URL);
         driver.manage().window().maximize();
 
         // Wait till page load
@@ -475,6 +486,9 @@ public class GGPoker_Website {
         PrintStream originalOut = System.out;
         System.setOut(new PrintStream(baos));
 
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless");
+
 
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -600,7 +614,8 @@ public class GGPoker_Website {
 
     @Test(dataProvider = "Data Sheet 2")
     @Description("This is for input box for Contact us")
-    public void input_box_for_Contact_us(String Subjects, String names, String emails, String descriptions) throws InterruptedException {
+    public void input_box_for_Contact_us(String Subjects, String names, String emails, String descriptions) throws
+            InterruptedException {
 
         // Capture System.out output
         ByteArrayOutputStream baos = new ByteArrayOutputStream();

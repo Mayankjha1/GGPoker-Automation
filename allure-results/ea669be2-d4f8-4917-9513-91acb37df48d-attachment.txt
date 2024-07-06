@@ -1,0 +1,2 @@
+Fri Jul 05 11:19:44 IST 2024 WARNING https://nsus.my.site.com/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 05 11:19:45 IST 2024 WARNING https://nsus.my.site.com/ggpokeres/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
