@@ -17,7 +17,7 @@ Automated testing for GGPOKER using Selenium with Java, Maven, TestNG, and Excel
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/yourusername/GGPoker_Automation.git](https://github.com/Mayankjha1/GGPoker-Automation.git
+   git clone https://github.com/Mayankjha1/GGPoker-Automation.git
    cd GGPoker_Automation
 
 # Project Structure
