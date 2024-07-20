@@ -1,0 +1,83 @@
+Fri Jul 19 16:14:53 IST 2024 WARNING https://help.ggpoker.ca/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:14:53 IST 2024 WARNING https://help.ggpoker.ca/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.addEventListener"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.getElementById"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.getElementsByTagName"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.getElementsByClassName"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.querySelector"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.querySelectorAll"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: document.removeEventListener"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: window.addEventListener"
+Fri Jul 19 16:14:59 IST 2024 WARNING https://service.force.com/embeddedservice/5.0/esw.min.js 17:498 "[Snap-ins] Warning: Embedded Service Chat may not function correctly with this native JS function modified: window.removeEventListener"
+Fri Jul 19 16:15:14 IST 2024 WARNING https://help.ggpoker.ca/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:15:15 IST 2024 WARNING https://help.ggpoker.ca/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:15:17 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Account%20Verification&type=thirdcategory&data=Account%20Verification 0:0 
+Fri Jul 19 16:15:21 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Password%20Queries&type=thirdcategory&data=Password%20Queries 0:0 
+Fri Jul 19 16:15:24 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Update%20Details&type=thirdcategory&data=Update%20Details 0:0 
+Fri Jul 19 16:15:28 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Account+Creation+%26+Deletion&type=thirdcategory&data=Account+Creation+%26+Deletion 0:0 
+Fri Jul 19 16:15:31 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Marketing+Opt+in%2Fout&type=thirdcategory&data=Marketing+Opt+in%2Fout 0:0 
+Fri Jul 19 16:15:35 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Country%20Availability&type=thirdcategory&data=Country%20Availability 0:0 
+Fri Jul 19 16:15:38 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Data%20Request&type=thirdcategory&data=Data%20Request 0:0 
+Fri Jul 19 16:15:42 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Account%20Queries&type=thirdcategory&data=Other%20Account%20Queries 0:0 
+Fri Jul 19 16:15:46 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Security%20Features&type=thirdcategory&data=Security%20Features 0:0 
+Fri Jul 19 16:15:49 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Account%20Security%20Queries&type=thirdcategory&data=Other%20Account%20Security%20Queries 0:0 
+Fri Jul 19 16:15:53 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Unwanted%20Access&type=thirdcategory&data=Unwanted%20Access 0:0 
+Fri Jul 19 16:16:00 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Limits%20-%20Increase&type=thirdcategory&data=Limits%20-%20Increase 0:0 
+Fri Jul 19 16:16:03 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Limits%20-%20Decrease&type=thirdcategory&data=Limits%20-%20Decrease 0:0 
+Fri Jul 19 16:16:10 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Time%20Out&type=thirdcategory&data=Time%20Out 0:0 
+Fri Jul 19 16:16:14 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Permanent+Exclusion+%26+Account+Closure&type=thirdcategory&data=Permanent+Exclusion+%26+Account+Closure 0:0 
+Fri Jul 19 16:16:17 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Responsible%20Gaming%20Queries&type=thirdcategory&data=Other%20Responsible%20Gaming%20Queries 0:0 
+Fri Jul 19 16:16:24 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=All-in%20or%20Fold&type=thirdcategory&data=All-in%20or%20Fold 0:0 
+Fri Jul 19 16:16:28 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Spin+%26+Gold&type=thirdcategory&data=Spin+%26+Gold 0:0 
+Fri Jul 19 16:16:32 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Battle%20Royale&type=thirdcategory&data=Battle%20Royale 0:0 
+Fri Jul 19 16:16:35 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Flip+%26+Go&type=thirdcategory&data=Flip+%26+Go 0:0 
+Fri Jul 19 16:16:39 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Rush+%26+Cash&type=thirdcategory&data=Rush+%26+Cash 0:0 
+Fri Jul 19 16:16:42 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Hold%27em&type=thirdcategory&data=Hold%27em 0:0 
+Fri Jul 19 16:16:46 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Omaha&type=thirdcategory&data=Omaha 0:0 
+Fri Jul 19 16:16:49 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Short%20Deck&type=thirdcategory&data=Short%20Deck 0:0 
+Fri Jul 19 16:16:53 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Casino&type=thirdcategory&data=Casino 0:0 
+Fri Jul 19 16:16:56 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Game%20Types&type=thirdcategory&data=Other%20Game%20Types 0:0 
+Fri Jul 19 16:17:03 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Daily%20Guarantees&type=thirdcategory&data=Daily%20Guarantees 0:0 
+Fri Jul 19 16:17:07 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Bounty%20Hunters&type=thirdcategory&data=Bounty%20Hunters 0:0 
+Fri Jul 19 16:17:10 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Mystery%20Bounty&type=thirdcategory&data=Mystery%20Bounty 0:0 
+Fri Jul 19 16:17:14 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=GGMasters&type=thirdcategory&data=GGMasters 0:0 
+Fri Jul 19 16:17:18 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=MILLION%24&type=thirdcategory&data=MILLION%24 0:0 
+Fri Jul 19 16:17:21 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Satellites&type=thirdcategory&data=Satellites 0:0 
+Fri Jul 19 16:17:25 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Tournament+Series+%26+Special+Events&type=thirdcategory&data=Tournament+Series+%26+Special+Events 0:0 
+Fri Jul 19 16:17:28 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Tournaments&type=thirdcategory&data=Other%20Tournaments 0:0 
+Fri Jul 19 16:17:35 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Staking+%26+Backing&type=thirdcategory&data=Staking+%26+Backing 0:0 
+Fri Jul 19 16:17:39 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Smart%20HUD&type=thirdcategory&data=Smart%20HUD 0:0 
+Fri Jul 19 16:17:42 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Prop%20Bets&type=thirdcategory&data=Prop%20Bets 0:0 
+Fri Jul 19 16:17:46 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Early%20Bird%20Benefits&type=thirdcategory&data=Early%20Bird%20Benefits 0:0 
+Fri Jul 19 16:17:49 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=EV%20Cashout&type=thirdcategory&data=EV%20Cashout 0:0 
+Fri Jul 19 16:17:53 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Features&type=thirdcategory&data=Other%20Features 0:0 
+Fri Jul 19 16:17:57 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=PokerCraft&type=thirdcategory&data=PokerCraft 0:0 
+Fri Jul 19 16:18:01 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Game%20Integrity&type=thirdcategory&data=Game%20Integrity 0:0 
+Fri Jul 19 16:18:04 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Game%20Related%20Queries&type=thirdcategory&data=Other%20Game%20Related%20Queries 0:0 
+Fri Jul 19 16:18:11 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=How%20to%20Deposit&type=thirdcategory&data=How%20to%20Deposit 0:0 
+Fri Jul 19 16:18:15 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Deposit%20Queries&type=thirdcategory&data=Other%20Deposit%20Queries 0:0 
+Fri Jul 19 16:18:22 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=How%20to%20Withdraw&type=thirdcategory&data=How%20to%20Withdraw 0:0 
+Fri Jul 19 16:18:25 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20WIthdrawal%20Queries&type=thirdcategory&data=Other%20WIthdrawal%20Queries 0:0 
+Fri Jul 19 16:18:29 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Transaction%20History&type=thirdcategory&data=Transaction%20History 0:0 
+Fri Jul 19 16:18:33 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Transfers%20Queries&type=thirdcategory&data=Transfers%20Queries 0:0 
+Fri Jul 19 16:18:40 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=T%24&type=thirdcategory&data=T%24 0:0 
+Fri Jul 19 16:18:43 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=C%24&type=thirdcategory&data=C%24 0:0 
+Fri Jul 19 16:18:47 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Tickets&type=thirdcategory&data=Tickets 0:0 
+Fri Jul 19 16:18:50 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Cashier%20Queries&type=thirdcategory&data=Other%20Cashier%20Queries 0:0 
+Fri Jul 19 16:18:54 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Connection%20Issues&type=thirdcategory&data=Connection%20Issues 0:0 
+Fri Jul 19 16:18:57 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Download%20and%20Installation&type=thirdcategory&data=Download%20and%20Installation 0:0 
+Fri Jul 19 16:19:04 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Windows%20Client&type=thirdcategory&data=Windows%20Client 0:0 
+Fri Jul 19 16:19:08 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=MacOS%20Client&type=thirdcategory&data=MacOS%20Client 0:0 
+Fri Jul 19 16:19:15 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Android%20App&type=thirdcategory&data=Android%20App 0:0 
+Fri Jul 19 16:19:19 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=iOS%20App&type=thirdcategory&data=iOS%20App 0:0 
+Fri Jul 19 16:19:22 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Game+Cancellation+%26+Refund+Policy&type=thirdcategory&data=Game+Cancellation+%26+Refund+Policy 0:0 
+Fri Jul 19 16:19:26 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other%20Technical%20Queries&type=thirdcategory&data=Other%20Technical%20Queries 0:0 
+Fri Jul 19 16:19:29 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Fish%20Buffet&type=thirdcategory&data=Fish%20Buffet 0:0 
+Fri Jul 19 16:19:33 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Honeymoon%20for%20Newcomers&type=thirdcategory&data=Honeymoon%20for%20Newcomers 0:0 
+Fri Jul 19 16:19:37 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Welcome%20Bonus&type=thirdcategory&data=Welcome%20Bonus 0:0 
+Fri Jul 19 16:19:40 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Jackpots&type=thirdcategory&data=Jackpots 0:0 
+Fri Jul 19 16:19:44 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Daily%20Freebie&type=thirdcategory&data=Daily%20Freebie 0:0 
+Fri Jul 19 16:19:47 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Leaderboards&type=thirdcategory&data=Leaderboards 0:0 
+Fri Jul 19 16:19:51 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=ThanksGG&type=thirdcategory&data=ThanksGG 0:0 
+Fri Jul 19 16:19:54 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Casino%20Bonus&type=thirdcategory&data=Casino%20Bonus 0:0 
+Fri Jul 19 16:19:58 IST 2024 SEVERE https://help.ggpoker.ca/s/contentpage?language=en_US&level=Other+Promotions+%26+Rewards&type=thirdcategory&data=Other+Promotions+%26+Rewards 0:0 

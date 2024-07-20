@@ -1,0 +1,148 @@
+Language Size : 2
+--------------------https://help.clubgg.net/s/?language=en_US--------------------
+--------------------English US--------------------
+Language Name : English US
+Level 2 : KYC
+Articles Size 4
+Level 2 : Club Account
+Articles Size 2
+Level 2 : Application Account
+No Articles : Application Account
+Level 2 : Account Creation
+Articles Size 1
+Level 2 : Account Deletion
+Articles Size 1
+Level 2 : Other Account Queries
+Articles Size 18
+Level 2 : Platinum
+Articles Size 2
+Level 2 : Standard
+No Articles : Standard
+Level 2 : Other Membership Queries
+Articles Size 8
+Level 2 : Clubs
+Articles Size 15
+Level 2 : Unions
+Articles Size 4
+Level 2 : Other Club Queries
+Articles Size 8
+Level 2 : Other Union Queries
+Articles Size 1
+Level 2 : No Limit Hold'em
+Articles Size 4
+Level 2 : Pot Limit Omaha
+Articles Size 4
+Level 2 : 6+ (Short Deck)
+Articles Size 4
+Level 2 : Tournaments
+Articles Size 11
+Level 2 : Live Events
+No Articles : Live Events
+Level 2 : Hand History
+No Articles : Hand History
+Level 2 : Other Game Related Queries
+Articles Size 7
+Level 2 : Refer-A-Friend
+Articles Size 2
+Level 2 : GGStore
+Articles Size 3
+Level 2 : GGClass
+Articles Size 1
+Level 2 : Loyalty Bonus
+No Articles : Loyalty Bonus
+Level 2 : Other Promotions & Rewards Queries
+No Articles : Other Promotions & Rewards Queries
+Level 2 : Download and installation
+Articles Size 2
+Level 2 : Desktop
+No Articles : Desktop
+Level 2 : Mobile
+Articles Size 1
+Level 2 : Other Technical Queries
+Articles Size 1
+Level 2 : Register to Live Events
+No Articles : Register to Live Events
+Level 2 : Convert to GGPoker T$
+Articles Size 1
+Level 2 : Convert L$ to Cash
+No Articles : Convert L$ to Cash
+Level 2 : Convert to Amazon Gift Card
+No Articles : Convert to Amazon Gift Card
+Level 2 : Convert to Luxon Pay
+No Articles : Convert to Luxon Pay
+Level 2 : Other Redemptions Queries
+No Articles : Other Redemptions Queries
+Language Size : 2
+--------------------https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Redemptions%20Queries&type=thirdcategory&data=Other%20Redemptions%20Queries--------------------
+--------------------Spanish--------------------
+Language Name : Spanish
+Level 2 : KYC
+Articles Size 4
+Level 2 : Cuenta Club
+Articles Size 2
+Level 2 : Cuenta de Aplicación
+No Articles : Cuenta de Aplicación
+Level 2 : Creación de Cuenta
+No Articles : Creación de Cuenta
+Level 2 : Eliminación de Cuenta
+Articles Size 1
+Level 2 : Otras Consultas de Cuenta
+Articles Size 18
+Level 2 : Platino
+Articles Size 2
+Level 2 : Estándar
+No Articles : Estándar
+Level 2 : Otras Consultas de Membresía
+Articles Size 8
+Level 2 : Clubs
+Articles Size 15
+Level 2 : Uniones
+Articles Size 4
+Level 2 : Otras Consultas de Club
+Articles Size 8
+Level 2 : Otras Consultas de Unión
+Articles Size 1
+Level 2 : No Limit Hold'em
+Articles Size 4
+Level 2 : Pot Limit Omaha
+Articles Size 4
+Level 2 : 6+ (Short Deck)
+Articles Size 4
+Level 2 : Torneos
+Articles Size 11
+Level 2 : Eventos en Vivo
+No Articles : Eventos en Vivo
+Level 2 : Historial de Manos
+No Articles : Historial de Manos
+Level 2 : Otras consultas con juegos
+No Articles : Otras consultas con juegos
+Level 2 : Recomienda a un Amigo
+Articles Size 2
+Level 2 : GGStore
+Articles Size 3
+Level 2 : GGClass
+Articles Size 1
+Level 2 : Bono de Lealtad
+No Articles : Bono de Lealtad
+Level 2 : Otras Consultas Promoc. & Recomp.
+No Articles : Otras Consultas Promoc. & Recomp.
+Level 2 : Descarga e instalación
+No Articles : Descarga e instalación
+Level 2 : Desktop
+No Articles : Desktop
+Level 2 : CGG móvil
+No Articles : CGG móvil
+Level 2 : Otras Consultas Técnicas
+Articles Size 1
+Level 2 : Registro a Eventos en Vivo
+No Articles : Registro a Eventos en Vivo
+Level 2 : Convertir a GGPoker T$
+Articles Size 1
+Level 2 : Convertir L$ a Dinero
+No Articles : Convertir L$ a Dinero
+Level 2 : Convertir a Amazon Gift Card
+No Articles : Convertir a Amazon Gift Card
+Level 2 : Convertir a Luxon Pay
+No Articles : Convertir a Luxon Pay
+Level 2 : Otras Consultas de Canjes
+No Articles : Otras Consultas de Canjes

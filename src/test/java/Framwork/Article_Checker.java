@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static Framwork.Allure_Helper_Class.captureScreenshot;
+import static Framwork.Allure_Helper_Class.*;
 
 public class Article_Checker {
 
@@ -28,7 +28,7 @@ public class Article_Checker {
     @DataProvider(name = "GGPoker URL's")
     public Object[][] testDataExcelFile() throws IOException {
         String excelFileLocation = "src/test/resources/Searched_input_data.xlsx";
-        return ExcelUtils.getExcelData(excelFileLocation, "Article");
+        return ExcelUtils.getExcelData(excelFileLocation, "3_URL");
     }
 
     @Test(dataProvider = "GGPoker URL's")
@@ -77,6 +77,7 @@ public class Article_Checker {
                 // Click on every item
                 wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//ul[@class=\"level-2\"]/li")));
                 captureScreenshot(driver, "Categorized Page Screenshot ");
+               // driver.findElement(By.xpath("(//ul[@class=\"level-2\"]/li)[1]")).click();
                 List<WebElement> subcategory = driver.findElements(By.xpath("//ul[@class=\"level-2\"]/li"));
                 for (int i = 0; i < subcategory.size(); i++) {
                     // System.out.println("Inside for loop");
@@ -84,6 +85,9 @@ public class Article_Checker {
                     // System.out.println("subcategory.get(i) : " + subcategory.get(i));
                     WebElement elements = subcategory.get(i);
                     System.out.println("Level 2 : " + elements.getText());
+
+                    // Capture text right before interacting
+                    String expectedResult = elements.getText();
 
                     ActionClass.moveToElement(elements).build().perform();
                     //captureScreenshot(driver, "Page Screenshot");
@@ -98,14 +102,15 @@ public class Article_Checker {
                         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"datatableforcategory\"]/div/div")));
                         //  WebElement Article_elements = Articles_Level2.get(i);
                         // System.out.println("Articles Name " + Article_elements.getText());
-                        captureScreenshot(driver, elements.getText() + " --> Articles");
+                        // System.out.println("Test => " + expectedResult);
+                        captureScreenshot(driver, expectedResult + " --> Articles");
                         System.out.println("Articles Size " + Articles_Level2.size());
                         // Thread.sleep(1000);
                         // System.out.println("Articles Size " + Article_elements.getText());
 
                     } else {
-                        captureScreenshot(driver, elements.getText() + " --> No Articles");
-                        System.out.println("No Articles : " + elements.getText());
+                        captureScreenshot(driver, expectedResult + " --> No Articles");
+                        System.out.println("No Articles : " + expectedResult);
                     }
 
 
@@ -121,6 +126,7 @@ public class Article_Checker {
                             // System.out.println("subcategory.get(i) : " + subcategory.get(i));
                             WebElement elements_Level3 = subcategory_Level3.get(j);
                             System.out.println("Level 3 : " + elements_Level3.getText());
+                            String expectedResult_Level_3 = elements_Level3.getText();
                             // Taking Screenshot
                             //  captureScreenshot(driver, elements_Of_L1.getText());
                             // elements_Level3.click();
@@ -136,7 +142,7 @@ public class Article_Checker {
                             if (!Articles_Level3.isEmpty() && Articles_Level3.get(0).isDisplayed()) {
                                 // for (int article = 0; article < Articles_Level2.size(); article++) {
                                 wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class=\"datatableforcategory\"]/div/div")));
-                                captureScreenshot(driver, elements_Level3.getText() + " -->  Articles");
+                                captureScreenshot(driver, expectedResult_Level_3 + " -->  Articles");
                                 //  WebElement Article_elements = Articles_Level2.get(i);
                                 // System.out.println("Articles Name " + Article_elements.getText());
 
@@ -145,8 +151,8 @@ public class Article_Checker {
                                 // System.out.println("Articles Size " + Article_elements.getText());
 
                             } else {
-                                captureScreenshot(driver, elements_Level3.getText() + " --> No Articles");
-                                System.out.println("No Articles : " + Articles_Level3.size());
+                                captureScreenshot(driver, expectedResult_Level_3 + " --> No Articles");
+                                System.out.println("No Articles : " + expectedResult_Level_3);
                             }
                         }
 

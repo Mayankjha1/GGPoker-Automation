@@ -1,0 +1,78 @@
+Fri Jul 19 16:09:57 IST 2024 WARNING https://help.clubgg.net/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:09:58 IST 2024 WARNING https://help.clubgg.net/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:10:15 IST 2024 WARNING https://help.clubgg.net/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:10:15 IST 2024 WARNING https://help.clubgg.net/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:10:17 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=KYC&type=thirdcategory&data=KYC 0:0 
+Fri Jul 19 16:10:21 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Club%20Account&type=thirdcategory&data=Club%20Account 0:0 
+Fri Jul 19 16:10:24 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Application%20Account&type=thirdcategory&data=Application%20Account 0:0 
+Fri Jul 19 16:10:28 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Account%20Creation&type=thirdcategory&data=Account%20Creation 0:0 
+Fri Jul 19 16:10:31 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Account%20Deletion&type=thirdcategory&data=Account%20Deletion 0:0 
+Fri Jul 19 16:10:35 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Account%20Queries&type=thirdcategory&data=Other%20Account%20Queries 0:0 
+Fri Jul 19 16:10:38 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Platinum&type=thirdcategory&data=Platinum 0:0 
+Fri Jul 19 16:10:42 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Standard&type=thirdcategory&data=Standard 0:0 
+Fri Jul 19 16:10:45 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Membership%20Queries&type=thirdcategory&data=Other%20Membership%20Queries 0:0 
+Fri Jul 19 16:10:49 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Clubs&type=thirdcategory&data=Clubs 0:0 
+Fri Jul 19 16:10:53 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Unions&type=thirdcategory&data=Unions 0:0 
+Fri Jul 19 16:10:56 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Club%20Queries&type=thirdcategory&data=Other%20Club%20Queries 0:0 
+Fri Jul 19 16:11:00 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Union%20Queries&type=thirdcategory&data=Other%20Union%20Queries 0:0 
+Fri Jul 19 16:11:03 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=No+Limit+Hold%27em&type=thirdcategory&data=No+Limit+Hold%27em 0:0 
+Fri Jul 19 16:11:07 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Pot%20Limit%20Omaha&type=thirdcategory&data=Pot%20Limit%20Omaha 0:0 
+Fri Jul 19 16:11:10 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=6%2B+%28Short+Deck%29&type=thirdcategory&data=6%2B+%28Short+Deck%29 0:0 
+Fri Jul 19 16:11:14 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Tournaments&type=thirdcategory&data=Tournaments 0:0 
+Fri Jul 19 16:11:17 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Live%20Events&type=thirdcategory&data=Live%20Events 0:0 
+Fri Jul 19 16:11:21 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Hand%20History&type=thirdcategory&data=Hand%20History 0:0 
+Fri Jul 19 16:11:24 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Game%20Related%20Queries&type=thirdcategory&data=Other%20Game%20Related%20Queries 0:0 
+Fri Jul 19 16:11:28 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Refer-A-Friend&type=thirdcategory&data=Refer-A-Friend 0:0 
+Fri Jul 19 16:11:31 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=GGStore&type=thirdcategory&data=GGStore 0:0 
+Fri Jul 19 16:11:35 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=GGClass&type=thirdcategory&data=GGClass 0:0 
+Fri Jul 19 16:11:38 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Loyalty%20Bonus&type=thirdcategory&data=Loyalty%20Bonus 0:0 
+Fri Jul 19 16:11:41 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other+Promotions+%26+Rewards+Queries&type=thirdcategory&data=Other+Promotions+%26+Rewards+Queries 0:0 
+Fri Jul 19 16:11:45 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Download%20and%20installation&type=thirdcategory&data=Download%20and%20installation 0:0 
+Fri Jul 19 16:11:48 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Desktop&type=thirdcategory&data=Desktop 0:0 
+Fri Jul 19 16:11:52 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Mobile&type=thirdcategory&data=Mobile 0:0 
+Fri Jul 19 16:11:55 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Technical%20Queries&type=thirdcategory&data=Other%20Technical%20Queries 0:0 
+Fri Jul 19 16:11:59 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Register%20to%20Live%20Events&type=thirdcategory&data=Register%20to%20Live%20Events 0:0 
+Fri Jul 19 16:12:02 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Convert+to+GGPoker+T%24&type=thirdcategory&data=Convert+to+GGPoker+T%24 0:0 
+Fri Jul 19 16:12:06 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Convert+L%24+to+Cash&type=thirdcategory&data=Convert+L%24+to+Cash 0:0 
+Fri Jul 19 16:12:09 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Convert%20to%20Amazon%20Gift%20Card&type=thirdcategory&data=Convert%20to%20Amazon%20Gift%20Card 0:0 
+Fri Jul 19 16:12:13 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Convert%20to%20Luxon%20Pay&type=thirdcategory&data=Convert%20to%20Luxon%20Pay 0:0 
+Fri Jul 19 16:12:16 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=en_US&level=Other%20Redemptions%20Queries&type=thirdcategory&data=Other%20Redemptions%20Queries 0:0 
+Fri Jul 19 16:12:24 IST 2024 WARNING https://help.clubgg.net/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:12:25 IST 2024 WARNING https://help.clubgg.net/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:12:33 IST 2024 WARNING https://help.clubgg.net/components/instrumentation/componentProfiler.js 0:617 "ComponentProfiler:" "Component-level profiling has not been enabled."
+Fri Jul 19 16:12:34 IST 2024 WARNING https://help.clubgg.net/s/sfsites/auraFW/javascript/WFIwUmVJdmtIRnI3MTFpX0d6c1VwQWhZX25NdHFVdGpDN3BnWlROY1ZGT3cyNTAuOC4zLTYuNC41/aura_prod.js 104 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+Fri Jul 19 16:12:36 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=KYC&type=thirdcategory&data=KYC 0:0 
+Fri Jul 19 16:12:40 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Cuenta%20Club&type=thirdcategory&data=Cuenta%20Club 0:0 
+Fri Jul 19 16:12:43 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Cuenta+de+Aplicaci%C3%B3n&type=thirdcategory&data=Cuenta+de+Aplicaci%C3%B3n 0:0 
+Fri Jul 19 16:12:47 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Creaci%C3%B3n+de+Cuenta&type=thirdcategory&data=Creaci%C3%B3n+de+Cuenta 0:0 
+Fri Jul 19 16:12:50 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Eliminaci%C3%B3n+de+Cuenta&type=thirdcategory&data=Eliminaci%C3%B3n+de+Cuenta 0:0 
+Fri Jul 19 16:12:54 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras%20Consultas%20de%20Cuenta&type=thirdcategory&data=Otras%20Consultas%20de%20Cuenta 0:0 
+Fri Jul 19 16:12:57 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Platino&type=thirdcategory&data=Platino 0:0 
+Fri Jul 19 16:13:01 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Est%C3%A1ndar&type=thirdcategory&data=Est%C3%A1ndar 0:0 
+Fri Jul 19 16:13:04 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras+Consultas+de+Membres%C3%ADa&type=thirdcategory&data=Otras+Consultas+de+Membres%C3%ADa 0:0 
+Fri Jul 19 16:13:08 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Clubs&type=thirdcategory&data=Clubs 0:0 
+Fri Jul 19 16:13:11 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Uniones&type=thirdcategory&data=Uniones 0:0 
+Fri Jul 19 16:13:15 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras%20Consultas%20de%20Club&type=thirdcategory&data=Otras%20Consultas%20de%20Club 0:0 
+Fri Jul 19 16:13:18 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras+Consultas+de+Uni%C3%B3n&type=thirdcategory&data=Otras+Consultas+de+Uni%C3%B3n 0:0 
+Fri Jul 19 16:13:22 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=No+Limit+Hold%27em&type=thirdcategory&data=No+Limit+Hold%27em 0:0 
+Fri Jul 19 16:13:25 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Pot%20Limit%20Omaha&type=thirdcategory&data=Pot%20Limit%20Omaha 0:0 
+Fri Jul 19 16:13:29 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=6%2B+%28Short+Deck%29&type=thirdcategory&data=6%2B+%28Short+Deck%29 0:0 
+Fri Jul 19 16:13:32 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Torneos&type=thirdcategory&data=Torneos 0:0 
+Fri Jul 19 16:13:36 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Eventos%20en%20Vivo&type=thirdcategory&data=Eventos%20en%20Vivo 0:0 
+Fri Jul 19 16:13:39 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Historial%20de%20Manos&type=thirdcategory&data=Historial%20de%20Manos 0:0 
+Fri Jul 19 16:13:43 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras%20consultas%20con%20juegos&type=thirdcategory&data=Otras%20consultas%20con%20juegos 0:0 
+Fri Jul 19 16:13:46 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Recomienda%20a%20un%20Amigo&type=thirdcategory&data=Recomienda%20a%20un%20Amigo 0:0 
+Fri Jul 19 16:13:50 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=GGStore&type=thirdcategory&data=GGStore 0:0 
+Fri Jul 19 16:13:53 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=GGClass&type=thirdcategory&data=GGClass 0:0 
+Fri Jul 19 16:13:57 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Bono%20de%20Lealtad&type=thirdcategory&data=Bono%20de%20Lealtad 0:0 
+Fri Jul 19 16:14:00 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras+Consultas+Promoc.+%26+Recomp.&type=thirdcategory&data=Otras+Consultas+Promoc.+%26+Recomp. 0:0 
+Fri Jul 19 16:14:03 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Descarga+e+instalaci%C3%B3n&type=thirdcategory&data=Descarga+e+instalaci%C3%B3n 0:0 
+Fri Jul 19 16:14:07 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Desktop&type=thirdcategory&data=Desktop 0:0 
+Fri Jul 19 16:14:10 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=CGG+m%C3%B3vil&type=thirdcategory&data=CGG+m%C3%B3vil 0:0 
+Fri Jul 19 16:14:14 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras+Consultas+T%C3%A9cnicas&type=thirdcategory&data=Otras+Consultas+T%C3%A9cnicas 0:0 
+Fri Jul 19 16:14:17 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Registro%20a%20Eventos%20en%20Vivo&type=thirdcategory&data=Registro%20a%20Eventos%20en%20Vivo 0:0 
+Fri Jul 19 16:14:21 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Convertir+a+GGPoker+T%24&type=thirdcategory&data=Convertir+a+GGPoker+T%24 0:0 
+Fri Jul 19 16:14:24 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Convertir+L%24+a+Dinero&type=thirdcategory&data=Convertir+L%24+a+Dinero 0:0 
+Fri Jul 19 16:14:28 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Convertir%20a%20Amazon%20Gift%20Card&type=thirdcategory&data=Convertir%20a%20Amazon%20Gift%20Card 0:0 
+Fri Jul 19 16:14:31 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Convertir%20a%20Luxon%20Pay&type=thirdcategory&data=Convertir%20a%20Luxon%20Pay 0:0 
+Fri Jul 19 16:14:35 IST 2024 SEVERE https://help.clubgg.net/s/contentpage?language=es&level=Otras%20Consultas%20de%20Canjes&type=thirdcategory&data=Otras%20Consultas%20de%20Canjes 0:0 
